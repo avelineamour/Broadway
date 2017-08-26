@@ -8,6 +8,10 @@ body {
   background-image: url("./../images/the-flatiron-building.png");
 }
 
+.topnav {
+  font-size: 18px;
+}
+
 h1,
 .newyork,
 .topnav,
@@ -15,18 +19,35 @@ h1,
   color: white;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
 
 h2,
 h3 {
   color: black;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.newyork {
+  background-image: url("./../images/the-flatiron-building.png");
 }
 
 .footnav {
   background-color: dimgray;
   text-align: left;
   font-size: 11px;
-}
-
-.newyork {
-  background-image: url("./../images/the-flatiron-building.png");
 }
